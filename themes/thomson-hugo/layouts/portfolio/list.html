@@ -36,9 +36,9 @@
       <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;{{ .Params.Category | urlize }}&quot;]">
         <div class="position-relative inner-box">
           <div class="image position-relative">
-            <img src="{{ .Params.Image | absURL }}" alt="portfolio-image" class="img-fluid w-100 d-block">
+            <img src="{{ .Params.featured_image | absURL }}" alt="portfolio-image" class="img-fluid w-100 d-block">
             <div class="overlay-box">
-              <a class="portfolio-image popup-gallery" href="{{ .Params.Image | absURL }}">
+              <a class="portfolio-image popup-gallery" href="{{ .Params.featured_image | absURL }}">
                 <i class="ti-plus"></i>
               </a>
               <div class="overlay-inner">

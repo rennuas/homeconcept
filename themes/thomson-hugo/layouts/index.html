@@ -67,7 +67,7 @@
     <div class="row">
       {{ range .benefit_item }}
       <div class="col-lg-4">
-        <div class="benefit-item mb-4 text-center">
+        <div class="benefit-item mb-5 text-center">
           <i class="{{ .icon }} text-light"></i>
           <h4 class="my-3 text-light">{{ .name | markdownify }}</h4>
         </div>
@@ -109,9 +109,9 @@
       <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;{{ .Params.Category | urlize }}&quot;]">
         <div class="position-relative inner-box">
           <div class="image position-relative">
-            <img src="{{ .Params.Image | absURL }}" alt="portfolio-image" class="img-fluid w-100 d-block">
+            <img src="{{ .Params.Featured_image | absURL }}" alt="portfolio-image" class="img-fluid w-100 d-block">
             <div class="overlay-box">
-              <a class="portfolio-image popup-gallery" href="{{ .Params.Image | absURL }}">
+              <a class="portfolio-image popup-gallery" href="{{ .Params.Featured_image | absURL }}">
                 <i class="ti-plus"></i>
               </a>
               <div class="overlay-inner">

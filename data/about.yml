@@ -1,20 +1,28 @@
 ###################### About ##########################
-author:
+company:
   enable : true
-  image : "images/about-img.jpg"
-  name : "Jems Smith"
-  bio : "I create premium designs and technology"
-  content : "I was born in Los Angeles in 1980.I'm 23 years old creative web designer, specializing in User Interface Design and Development.Veritatis culpa sunt alias esse fuga accusamus nostrum, iusto neque."
-  signature : "images/signature.png"
+  image : "images/about-banner.jpg"
+  name : "Home Concept"
+  bio : "Produsen furnitur dan kontraktor interior"
+  content : "Home Concept mulai didirikan pada Juni 2020. Home Concept hadir di era modern dimana banyaknya aliran desain furnitur, kami siap melayani kebutuhan klien apabila ingin di buatkan desain furnitur sesuai selera masing-masing. Desain kami dapat menyesuaikan ( fleksibel ) dan bahan-bahan pilihan adalah keunggulan utama kami. Bahan kain yang kami gunakan tersedia dalam pilihan lokal atau impor dan untuk kayu menggunakan kayu Solid yang kuat, berat dan di poles dengan baik.
+
+  
+  Nama Home Concept sendiri terisnpirasi dari banyaknya konsep desain yang di tawarkan saat ini untuk mengisi perabotan rumah. Dengan harga yang terjangkau kami tetap menjaga kualitas dari furnitur itu sendiri. Home Concept  menjamin kualitas yang baik dan tahan lama, dengan menggabungkan kayu berkualitas tinggi dan kain yang luar biasa.
+
+
+  Selain berbagai furnitur, kami juga menawarkan custom wardrobe dan kitchen. Semua kami rancang untuk melengkapi lingkungan hidup yang lebih baik di rumah."
+  team_content : "Tim kami terdiri dari individu-individu muda yang berpengalaman dalam menangani berbagai proyek interior besar dan pembuatan furnitur. Kami dilengkapi dengan reputasi sebagai kekuatan kreatif utama di balik desain dan perabotan dari banyak industri yang sukses atau terkenal seperti area perumahan, ruang kantor, apartemen dan banyak lagi lainnya. 
+
+  Anggota tim inti dan staf kami telah bekerja di puncak bidang masing-masing. Pengetahuan, kontak, dan pengalaman kolektif mereka telah digabungkan bersama untuk menawarkan perusahaan perwakilan yang sangat baik di wilayah ini. "
   favourite_topic:
-    - "Web design"
-    - "Brand Identity"
-    - "Development & CMS"
-    - "Phptography"
+    - "Arsitektur"
+    - "Desain Interior"
+    - "Build"
+    - "Furnitur"
 
 #################### Experience #######################
 experience:
-  enable : true
+  enable : false
   title : "Work Experiences."
   experience_item:
     # experience item
@@ -40,7 +48,7 @@ experience:
 
 ###################### skill ############################
 skill:
-  enable : true
+  enable : false
   title : "My skills."
   skillbar:
     # skillbar loop
@@ -63,8 +71,8 @@ skill:
 ################## call to action ####################
 cta:
   enable : true
-  title : "Want to discuss about any project?"
+  title : "Ingin berdiskusi mengenai furnitur dan interior?"
   button:
     enable : true
-    label : "contact me"
+    label : "Hubungi Kami"
     link : "contact"

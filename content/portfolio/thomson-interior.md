@@ -1,11 +1,17 @@
 ---
-title: "Portfolio"
-image: "images/portfolio/m-3.jpg"
+title: "Thomson Interior"
+featured_image: "images/portfolio/portofolio_1.jpg" 
+images: 
+    - "images/portfolio/portofolio_1.jpg"
+    - "images/portfolio/portofolio_2.jpg"
+    - "images/portfolio/portofolio_3.jpg"
+    - "images/portfolio/portofolio_4.jpg"
+    - "images/portfolio/portofolio_5.jpg"
 client: "Thomson"
-year: "2019"
+year: "2020"
 description: "This is meta description."
-category: "design"
-project_url: "#"
+category: "Interior"
+project_url: "https://examplesite.org"
 type: "portfolio"
 draft: false
 ---

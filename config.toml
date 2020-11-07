@@ -2,7 +2,7 @@
 baseURL = "http://demo.themefisher.com/thomson-hugo/"
 languageCode = "en-us"
 theme = "thomson-hugo"
-title = "Thomson-Minimal Hugo Portfolio Temaplate"
+title = "Home Concept"
 summaryLength = "10"
 paginate = 4
 
@@ -60,7 +60,6 @@ url = "contact"
 weight = 4
 
 
-
 # default parameters
 [params]
 home = "Home"
@@ -88,8 +87,8 @@ preloader = "" # use png, jpg, svg or gif format
 [params.gmap]
 enable = true
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
+map_latitude = "106.7984044"
+map_longitude = "-6.2019535"
 map_marker = "images/marker.png"
 
 # social site
@@ -99,11 +98,7 @@ link = "#"
 
 [[params.social]]
 icon = "ti-instagram"
-link = "#"
-
-[[params.social]]
-icon = "ti-dribbble"
-link = "#"
+link = "https://www.instagram.com/hchomeconcept/"
 
 [[params.social]]
 icon = "ti-twitter-alt"

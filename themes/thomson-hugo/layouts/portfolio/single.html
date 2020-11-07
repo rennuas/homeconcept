@@ -1,14 +1,10 @@
 {{ define "main" }}
 
-<section class="section portfolio-single">
+<section class="section-sm portfolio-single">
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
-        <img src="{{ .Params.Image | absURL }}" alt="{{ .Title }}" class="img-fluid w-100">
-      </div>
-
-      <div class="col-lg-6">
-        <div class="project-info">
+        <div class="sticky-top pt-5">
           <h3 class="mb-4">{{ .Title }}</h3>
           {{ .Content }}
           <div class="row mt-4">
@@ -22,11 +18,6 @@
                 <h5 class="mb-0">Year</h5>
                 <p>{{ .Params.Year }}</p>
               </div>
-              {{ if and ( ne .Params.Project_url "" ) ( ne .Params.Project_url "#" ) }}
-              <div class="mt-4">
-                <a href="{{ .Params.Project_url | safeURL }}" class="btn btn-main btn-small">View project</a>
-              </div>
-              {{ end }}
             </div>
 
             <div class="col-lg-6">
@@ -45,6 +36,17 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+
+      
+      <div class="col-lg-6">
+        <div class="portfolio-gallery mt-5">
+          {{ range .Params.Images }}
+          <a class="popup-gallery" href="{{ . | absURL }}">
+            <img src="{{ . | absURL }}" alt="{{ . }}" class="img-fluid w-100 mb-3">
+          </a>
+          {{ end }}
         </div>
       </div>
     </div>

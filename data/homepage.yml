@@ -11,6 +11,7 @@ banner:
 ###################### Portfolio ######################
 portfolio:
   enable : true
+  title : "Portfolio"
 
 ###################### Service ########################
 service:

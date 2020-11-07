@@ -1,8 +1,8 @@
 {{ define "main"}}
 
 <!-- Banner start -->
-{{ if .Site.Data.about.author.enable }}
-{{ with .Site.Data.about.author }}
+{{ if .Site.Data.about.company.enable }}
+{{ with .Site.Data.about.company }}
 <section class="section banner-3">
   <div class="container">
     <div class="row justify-content-center align-items-center">
@@ -14,16 +14,20 @@
       <div class="col-lg-7">
         <h2>{{ .name }}</h2>
         <p class="lead mb-4">{{ .bio | markdownify }}</p>
-        <p class="mb-4">{{ .content | markdownify }}</p>
-        <img src="{{ .signature | relURL }}" alt="{{ .name }}" class="img-fluid">
+        <p class="content mb-4">{{ .content | markdownify }}</p>
       </div>
 
-      <div class="col-lg-5">
+      <div class="col-lg-5 d-none d-lg-block">
         <ul class="list-unstyled mt-3 mb-5 about-list">
           {{ range .favourite_topic }}
           <li>- {{ . }}</li>
           {{ end }}
         </ul>
+      </div>
+      
+      <div class="col-lg-12">
+        <h2>Tim Kami</h2>
+        <p class="content mb-4">{{ .team_content | markdownify }}</p>
       </div>
     </div>
   </div>
@@ -97,7 +101,7 @@
 {{ with .Site.Data.about.cta }}
 <section class="section-sm pt-0 cta">
   <div class="container">
-    <div class="row align-items-center bg-dark p-5">
+    <div class="row align-items-center bg-primary p-5">
       <div class="col-lg-8">
         <h3 class="text-white mb-0">{{ .title | markdownify }}</h3>
       </div>
