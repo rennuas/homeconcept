@@ -1,0 +1,26 @@
+.footer{
+	padding: 60px 0px;
+	background: $primary-color;
+	p {
+		color: $white;
+
+		a{
+			color: $primary-color;
+
+			&:hover {
+				color: $white;
+			}
+		}
+	}
+}
+.footer-widget{
+
+	a{
+		color: $white;
+		text-transform: capitalize;
+		&:hover{
+			color: $primary-color;
+		}
+	}
+}
+	

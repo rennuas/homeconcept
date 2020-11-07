@@ -1,0 +1,157 @@
+{{ define "main" }}
+
+<!-- Banner Start -->
+{{ if .Site.Data.homepage.banner.enable }}
+{{ with .Site.Data.homepage.banner }}
+<section class="section banner" style="background-image: url({{ .image | relURL }});">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10">
+        <h2 class="cd-headline clip is-full-width mb-4 text-white">
+          {{ .title | markdownify }} <br>
+          <span class="cd-words-wrapper text-color">
+            {{ range $index, $element:= .animated_text }}
+            <b {{ if eq $index 0 }} class="is-visible" {{ end }}>{{ . | markdownify }}</b>
+            {{ end }}
+          </span>
+        </h2>
+        <p class="text-white">{{ .content | markdownify }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- Banner End -->
+
+<!-- Service start -->
+{{ if .Site.Data.homepage.service.enable }}
+{{ with .Site.Data.homepage.service }}
+<section class="section service-home">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h2 class="mb-2 ">{{ .title | markdownify }}</h2>
+        <p class="mb-5">{{ .content | markdownify }}</p>
+      </div>
+    </div>
+
+    <div class="row">
+      {{ range .service_item }}
+      <div class="col-lg-4">
+        <div class="service-item mb-5">
+          <i class="{{ .icon }}"></i>
+          <h4 class="my-3">{{ .name | markdownify }}</h4>
+          <p>{{ .content | markdownify }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!-- Service End -->
+{{ end }}
+{{ end }}
+
+<!-- Benefit Start -->
+{{if .Site.Data.homepage.benefit.enable }}
+{{ with .Site.Data.homepage.benefit }}
+<section class="section benefit-home bg-primary">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2 class="mb-5 text-center text-light">{{ .title | markdownify }}</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      {{ range .benefit_item }}
+      <div class="col-lg-4">
+        <div class="benefit-item mb-4 text-center">
+          <i class="{{ .icon }} text-light"></i>
+          <h4 class="my-3 text-light">{{ .name | markdownify }}</h4>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!-- Benefit End -->
+{{ end }}
+{{ end }}
+
+<!-- Portfolio Start -->
+{{ if .Site.Data.homepage.portfolio.enable }}
+<section class="section portfolio">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-10">
+        <h2>Portfolio</h2>
+        <div class="btn-group btn-group-toggle " data-toggle="buttons">
+          <label class="btn active ">
+            <input type="radio" name="shuffle-filter" value="all" checked="checked" />All Projects
+          </label>
+          {{ $categories := slice }}
+          {{ range (where .Site.RegularPages "Type" "portfolio") }}
+          {{ $categories = $categories | append .Params.Category }}
+          {{ end }}
+          {{ range ( $categories | uniq ) }}
+          <label class="btn">
+            <input type="radio" name="shuffle-filter" value="{{ . | urlize }}" />{{ . | humanize }}
+          </label>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+
+    <div class="row shuffle-wrapper portfolio-gallery">
+      {{ range (where .Site.RegularPages "Type" "portfolio")}}
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;{{ .Params.Category | urlize }}&quot;]">
+        <div class="position-relative inner-box">
+          <div class="image position-relative">
+            <img src="{{ .Params.Image | absURL }}" alt="portfolio-image" class="img-fluid w-100 d-block">
+            <div class="overlay-box">
+              <a class="portfolio-image popup-gallery" href="{{ .Params.Image | absURL }}">
+                <i class="ti-plus"></i>
+              </a>
+              <div class="overlay-inner">
+                <a class="overlay-content" href="{{ .Permalink }}">
+                  <h5 class="mb-0">{{ .Title }}</h5>
+                  <p>{{ .Params.Category | humanize }}</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+<!-- Portfolio End -->
+
+<!-- Contact Start -->
+{{ if .Site.Data.homepage.contact.enable }}
+{{ with .Site.Data.homepage.contact }}
+<section class="section-sm contact">
+  <div class="container">
+    <hr>
+    <div class="row">
+      <div class="col py-5 text-center">
+        <h2>{{ .title | markdownify }}</h2>
+        <p>{{ .content | markdownify }}</p>
+        {{ with .button }}
+          <a href="{{ .link | absURL }}" class="btn btn-main mt-3">{{ .label | markdownify }}</a>
+        {{ end }}
+      </div>
+    </div>
+    <hr>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- Contact End -->
+
+{{ end }}
+
