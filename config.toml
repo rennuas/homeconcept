@@ -1,5 +1,5 @@
 # default configuration
-baseURL = "http://demo.themefisher.com/thomson-hugo/"
+baseURL = "https://vigilant-hamilton-e4521a.netlify.app/"
 languageCode = "en-us"
 theme = "thomson-hugo"
 title = "Home Concept"
