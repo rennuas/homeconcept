@@ -20,11 +20,6 @@
 </section>
 <!-- Footer End -->
 
-{{"<!-- Google Map API -->" | safeHTML}}
-{{ if .Site.Params.gmap.enable }}
-<script type="text/javascript" src="{{ .Site.Params.gmap.gmap_api | absURL }}"></script>
-{{ end }}
-
 {{ "<!-- JS Plugins -->" | safeHTML }}
 {{ range .Site.Params.plugins.js}}
 <script src="{{ .link | absURL }}"></script>
