@@ -22,27 +22,27 @@ service:
     # service item loop
     - name : "Konsultasi Desain"
       icon : "ti-layout" #themify icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, earum."
+      content : "Memberikan solusi mengenai furnitur dan interior."
 
     # service item loop
     - name : "Desain Interior"
       icon : "ti-home" #themify icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, earum."
+      content : "Desain yang estetik dan elegen sesuai dengan selera"
 
     # service item loop
     - name : "Pembuatan Furnitur"
       icon : "ti-ruler-pencil" #themify icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, earum."
+      content : "Buat furnitur sesuai selera dengan bahan berkualitas"
 
     # service item loop
-    - name : "Perbaikian Funitur"
+    - name : "Perbaikan Funitur"
       icon : "ti-layers-alt" #themify icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, earum."
+      content : "Mengembalikan furnitur menjadi baru lagi"
 
     # service item loop
     - name : "Renovasi Furnitur"
       icon : "ti-settings" #themify icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, earum."
+      content : "Ciptakan furnitur baru dengan konsep yang Anda inginkan"
 
     # service item loop
     # - name : "App Design"

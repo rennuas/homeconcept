@@ -64,7 +64,7 @@ home = "Home"
 logo = "images/home.png"
 # contact info
 mobile = "+62 878 8866 1252"
-email = "homeconcept@gmail.com"
+email = "contact@homeconcept.design"
 address = "Brokoli House Jl. Palmerah Utara I No.20 Palmerah Jakarta Barat  11480 Indonesia"
 # meta description
 author = "astroprojects.xyz"
@@ -72,7 +72,7 @@ description = "This is meta description"
 # google analitycs
 google_analitycs_id = ""
 # contact form action 
-contact_form_action = "https://formspree.io/f/xoqpwoeg" # contact form works with : https://formspree.io
+contact_form_action = "#" # contact form works with : https://formspree.io
 # copyright
 copyright = "Copyrighht &copy; 2020 by [astroprojects](https://astroprojects.xyz)"
 

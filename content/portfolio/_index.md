@@ -4,4 +4,4 @@ date: 2019-05-12T12:14:34+06:00
 description: "This is meta description."
 ---
 
-## I provide <span class="text-color">Design Solutions.</span> <br>My work is presented here, check them below.
+## Kami siap melayani kebutuhan Furnitur dan Interior, Nilai dan Cek hasil kerja kami di sini
