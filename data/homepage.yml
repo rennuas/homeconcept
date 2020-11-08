@@ -27,7 +27,7 @@ service:
     # service item loop
     - name : "Desain Interior"
       icon : "ti-home" #themify icon pack : https://themify.me/themify-icons
-      content : "Desain yang estetik dan elegen sesuai dengan selera"
+      content : "Desain yang estetik dan elegan sesuai dengan selera"
 
     # service item loop
     - name : "Pembuatan Furnitur"
@@ -42,7 +42,7 @@ service:
     # service item loop
     - name : "Renovasi Furnitur"
       icon : "ti-settings" #themify icon pack : https://themify.me/themify-icons
-      content : "Ciptakan furnitur baru dengan konsep yang Anda inginkan"
+      content : "Ciptakan furnitur baru dengan konsep yang diinginkan"
 
     # service item loop
     # - name : "App Design"
