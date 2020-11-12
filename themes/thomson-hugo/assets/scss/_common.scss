@@ -54,6 +54,29 @@
 	}
 }
 
+.btn-whatsapp {
+	background: #25D366;
+	color: $white;
+	border-color: $white;
+
+	&:hover{
+		background: $black;
+		color: $white;
+	}
+}
+
+.btn-instagram {
+	background: rgb(14,0,255);
+	background: linear-gradient(180deg, rgba(145,0,255,1) 0%, rgba(244,47,47,1) 100%);
+	color: $white;
+	border-color: $white;
+
+	&:hover{
+		background: $black;
+		color: $white;
+	}
+}
+
 
 a{
 	color: $black;

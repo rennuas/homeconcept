@@ -21,8 +21,10 @@
         <div class="col-lg-4 mb-4 mb-lg-0 col-md-4">
           <h4>Mobile</h4>
           <p>
-            <a href="https://web.whatsapp.com/send?phone={{ .Site.Params.mobile }}">
-            {{ .Site.Params.mobile }} </a> 
+          {{ range .Site.Params.mobile }}
+            <a href="https://web.whatsapp.com/send?phone={{ . }}">
+            {{ . }} </a> <br>
+          {{ end }}
           </p>
         </div>
         <div class="col-lg-4 mb-4 mb-lg-0 col-md-4">
@@ -59,7 +61,7 @@
         <div class="whatsapp-form my-3">
           <h3>Via Whatsapp</h3>
           <div class="text-center">
-            <a href="https://web.whatsapp.com/send?phone={{ .Site.Params.mobile }}" class="btn btn-main my-3">Whatsapp Message</a>
+            <a href="https://api.whatsapp.com/send?phone={{ index .Site.Params.mobile 0 }}&text=Hallo saya ingin konsultasi" class="btn btn-whatsapp my-3"> <i class="fab fa-whatsapp"></i> Whatsapp</a>
           </div>
         </div>
         <div class="email-form my-3">

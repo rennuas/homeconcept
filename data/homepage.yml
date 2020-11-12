@@ -59,10 +59,10 @@ benefit:
       icon : "ti-money"
 
     - name : "Kualitas Terbaik"
-      icon : "ti-home"
+      icon : "ti-crown"
 
-    - name : "Bahan Tahan Lama"
-      icon : "ti-layers"
+    - name : "Tepat Waktu"
+      icon : "ti-time"
 
 
 

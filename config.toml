@@ -19,7 +19,8 @@ link = "plugins/owl-carousel/owl.theme.default.min.css"
 link = "plugins/animated-text/animated-text.css"
 [[params.plugins.css]]
 link = "plugins/magnific-popup/magnific-popup.css"
-
+[[params.plugins.css]]
+link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
 
 # js plugin
 [[params.plugins.js]]
@@ -63,18 +64,18 @@ weight = 4
 home = "Home"
 logo = "images/home.png"
 # contact info
-mobile = "+62 878 8866 1252"
+mobile = ["+62 878 8866 1252", "+62 878-0006-3636"]
 email = "contact@homeconcept.design"
 address = "Brokoli House Jl. Palmerah Utara I No.20 Palmerah Jakarta Barat  11480 Indonesia"
 # meta description
-author = "astroprojects.xyz"
-description = "This is meta description"
+author = "Astro Projects"
+description = "Home Concept solusi untuk interior dan furniture"
 # google analitycs
 google_analitycs_id = ""
 # contact form action 
 contact_form_action = "#" # contact form works with : https://formspree.io
 # copyright
-copyright = "Copyrighht &copy; 2020 by [astroprojects](https://astroprojects.xyz)"
+copyright = "Copyrighht &copy; 2020 by [Home Concept](/)"
 
 # preloader
 [params.preloader]
@@ -92,13 +93,5 @@ map_marker = "images/marker.png"
 
 # social site
 [[params.social]]
-icon = "ti-facebook"
-link = "#"
-
-[[params.social]]
 icon = "ti-instagram"
 link = "https://www.instagram.com/hchomeconcept/"
-
-[[params.social]]
-icon = "ti-twitter-alt"
-link = "#"

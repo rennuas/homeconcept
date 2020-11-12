@@ -56,4 +56,17 @@
   </div>
 </section>
 
+{{ range where .Site.Params.social ".icon" "ti-instagram" }}
+<section class="social-media my-5">
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <h3 class="mb-3">Lihat Juga Instagram Kami</h3>
+        <a href="{{ .link | safeURL }}" target="_blank" class="btn btn-instagram"> <i class="{{ .icon }}"></i> Instagram</a>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
 {{ end }}
