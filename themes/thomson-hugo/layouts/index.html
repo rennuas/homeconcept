@@ -7,15 +7,15 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-10">
-        <h2 class="cd-headline clip is-full-width mb-4 text-white">
+        <h2 class="cd-headline clip is-full-width mb-4 extra-text-color">
           {{ .title | markdownify }} <br>
-          <span class="cd-words-wrapper text-color">
+          <span class="cd-words-wrapper secondary-text-color">
             {{ range $index, $element:= .animated_text }}
             <b {{ if eq $index 0 }} class="is-visible" {{ end }}>{{ . | markdownify }}</b>
             {{ end }}
           </span>
         </h2>
-        <p class="text-white">{{ .content | markdownify }}</p>
+        <p class="extra-text-color">{{ .content | markdownify }}</p>
       </div>
     </div>
   </div>
@@ -56,11 +56,11 @@
 <!-- Benefit Start -->
 {{if .Site.Data.homepage.benefit.enable }}
 {{ with .Site.Data.homepage.benefit }}
-<section class="section benefit-home bg-primary">
+<section class="section benefit-home bg-secondary">
   <div class="container">
     <div class="row">
       <div class="col">
-        <h2 class="mb-5 text-center text-light">{{ .title | markdownify }}</h2>
+        <h2 class="mb-5 text-center primary-text-color">{{ .title | markdownify }}</h2>
       </div>
     </div>
 
@@ -68,8 +68,8 @@
       {{ range .benefit_item }}
       <div class="col-lg-4">
         <div class="benefit-item mb-5 text-center">
-          <i class="{{ .icon }} text-light"></i>
-          <h4 class="my-3 text-light">{{ .name | markdownify }}</h4>
+          <i class="{{ .icon }} shadow-text-color"></i>
+          <h4 class="my-3 primary-text-color">{{ .name | markdownify }}</h4>
         </div>
       </div>
       {{ end }}

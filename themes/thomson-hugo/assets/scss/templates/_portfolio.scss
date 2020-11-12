@@ -200,5 +200,10 @@
 .info{
   a{
     margin-right: 10px;
+    color: $shadow-color;
+
+    &:hover {
+      color: $primary-color;
+    }
   }
 }

@@ -1,9 +1,22 @@
+//color-scheme
+//Wood and Leather color combination
+$charcoal: #3F4440;
+$desert-sun: #E7A054;
+$red-orange: #FF6C33;
+$beige: #E9DAC4;
+//wood and papaer color combination
+$tan: #705446;
+$beige: #E1C391;
+$cream: #FDF4E3;
+$ebony: #3C3431;
+
 // Color Variables
 $white: #fff;
 $black: #000;
 $border-color: #dedede;
 $heading-font:'Playfair Display', serif;
 $body-font:'Lato', sans-serif;
-$extra-color:#e8eefb;
-$primary-color:#756043;
-$secondary-color:#f7f7f7;
+$extra-color: $cream;
+$primary-color: $tan;
+$secondary-color: $beige;
+$shadow-color: $ebony;

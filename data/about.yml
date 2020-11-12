@@ -1,16 +1,14 @@
 ###################### About ##########################
 company:
   enable : true
-  image : "images/about-banner.jpg"
+  image : "images/about.jpg"
   name : "Home Concept"
   bio : "Produsen furnitur dan kontraktor interior"
   content : "Home Concept mulai didirikan pada Juni 2020. Home Concept hadir di era modern dimana banyaknya aliran desain furnitur, kami siap melayani kebutuhan klien apabila ingin di buatkan desain furnitur sesuai selera masing-masing. Desain kami dapat menyesuaikan ( fleksibel ) dan bahan-bahan pilihan adalah keunggulan utama kami. Bahan kain yang kami gunakan tersedia dalam pilihan lokal atau impor dan untuk kayu menggunakan kayu Solid yang kuat, berat dan di poles dengan baik.
-
   
-  Nama Home Concept sendiri terisnpirasi dari banyaknya konsep desain yang di tawarkan saat ini untuk mengisi perabotan rumah. Dengan harga yang terjangkau kami tetap menjaga kualitas dari furnitur itu sendiri. Home Concept  menjamin kualitas yang baik dan tahan lama, dengan menggabungkan kayu berkualitas tinggi dan kain yang luar biasa.
-
-
+  
   Selain berbagai furnitur, kami juga menawarkan custom wardrobe dan kitchen. Semua kami rancang untuk melengkapi lingkungan hidup yang lebih baik di rumah."
+  philosophy_content: "Nama Home Concept sendiri terisnpirasi dari banyaknya konsep desain yang di tawarkan saat ini untuk mengisi perabotan rumah. Dengan harga yang terjangkau kami tetap menjaga kualitas dari furnitur itu sendiri. Home Concept  menjamin kualitas yang baik dan tahan lama, dengan menggabungkan kayu berkualitas tinggi dan kain yang luar biasa."
   team_content : "Tim kami terdiri dari individu-individu muda yang berpengalaman dalam menangani berbagai proyek interior besar dan pembuatan furnitur. Kami dilengkapi dengan reputasi sebagai kekuatan kreatif utama di balik desain dan perabotan dari banyak industri yang sukses atau terkenal seperti area perumahan, ruang kantor, apartemen dan banyak lagi lainnya. 
 
   Anggota tim inti dan staf kami telah bekerja di puncak bidang masing-masing. Pengetahuan, kontak, dan pengalaman kolektif mereka telah digabungkan bersama untuk menawarkan perusahaan perwakilan yang sangat baik di wilayah ini. "

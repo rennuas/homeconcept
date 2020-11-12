@@ -62,7 +62,7 @@ weight = 4
 # default parameters
 [params]
 home = "Home"
-logo = "images/home.png"
+logo = "images/home100x100.png"
 # contact info
 mobile = ["+62 878 8866 1252", "+62 878-0006-3636"]
 email = "contact@homeconcept.design"

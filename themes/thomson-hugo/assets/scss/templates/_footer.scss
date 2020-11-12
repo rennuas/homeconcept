@@ -2,13 +2,13 @@
 	padding: 60px 0px;
 	background: $primary-color;
 	p {
-		color: $white;
+		color: $extra-color;
 
 		a{
-			color: $primary-color;
+			color: $extra-color;
 
 			&:hover {
-				color: $white;
+				color: $secondary-color;
 			}
 		}
 	}
@@ -16,10 +16,10 @@
 .footer-widget{
 
 	a{
-		color: $white;
+		color: $extra-color;
 		text-transform: capitalize;
 		&:hover{
-			color: $primary-color;
+			color: $secondary-color;
 		}
 	}
 }

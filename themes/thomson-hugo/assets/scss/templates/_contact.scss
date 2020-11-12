@@ -44,6 +44,10 @@ textarea.form-control{
 
 .contact-content {
 	p a {
-		color: #818385;
+		color: $shadow-color;
+
+		&:hover{
+			color: $primary-color;
+		}
 	}
 }

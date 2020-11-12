@@ -26,6 +26,11 @@
           {{ end }}
         </ul>
       </div>
+
+      <div class="col-lg-12">
+        <h2>Filosofi Kami</h2>
+        <p class="content mb-4">{{ .philosophy_content | markdownify }}</p>
+      </div>
       
       <div class="col-lg-12">
         <h2>Tim Kami</h2>
@@ -103,14 +108,14 @@
 {{ with .Site.Data.about.cta }}
 <section class="section-sm pt-0 cta">
   <div class="container">
-    <div class="row align-items-center bg-primary p-5">
+    <div class="row align-items-center bg-secondary p-5">
       <div class="col-lg-8">
-        <h3 class="text-white mb-0">{{ .title | markdownify }}</h3>
+        <h3 class="shadow-text-color mb-0">{{ .title | markdownify }}</h3>
       </div>
       {{ if .button.enable }}
       {{ with .button }}
       <div class="col-lg-4 text-lg-right mt-5 mt-lg-0">
-        <a href="{{ .link | absURL }}" class="btn btn-white">{{ .label }}</a>
+        <a href="{{ .link | absURL }}" class="btn btn-main">{{ .label }}</a>
       </div>
       {{ end }}
       {{ end }}
