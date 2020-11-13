@@ -193,9 +193,12 @@
     left:50%;
 }
 
-// POrtfolio single
-// 
+.bg-instagram-cta{
+  background: rgb(14,0,255);
+	background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+}
 
+// Portfolio single
 
 .info{
   a{
@@ -206,4 +209,23 @@
       color: $primary-color;
     }
   }
+}
+
+
+@include mobile{
+	.instagram-cta{
+		padding-bottom: 0px;
+	}
+}
+
+@include mobile-xs{
+	.instagram-cta{
+		padding-bottom: 0px;
+	}
+}
+
+@include tablet{
+	.instagram-cta{
+		padding-bottom: 0px;
+	}
 }

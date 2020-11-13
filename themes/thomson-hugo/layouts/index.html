@@ -59,8 +59,9 @@
 <section class="section benefit-home bg-secondary">
   <div class="container">
     <div class="row">
-      <div class="col">
-        <h2 class="mb-5 text-center primary-text-color">{{ .title | markdownify }}</h2>
+      <div class="col mb-5">
+        <h2 class="text-center extra-text-color">{{ .title | markdownify }}</h2>
+        <!-- <p class="text-center">Miliki interior dan furnitur impian dengan mudah</p> -->
       </div>
     </div>
 
@@ -68,8 +69,8 @@
       {{ range .benefit_item }}
       <div class="col-lg-4">
         <div class="benefit-item mb-5 text-center">
-          <i class="{{ .icon }} shadow-text-color"></i>
-          <h4 class="my-3 primary-text-color">{{ .name | markdownify }}</h4>
+          <i class="{{ .icon }} extra-text-color"></i>
+          <h4 class="my-3 extra-text-color">{{ .name | markdownify }}</h4>
         </div>
       </div>
       {{ end }}
@@ -142,7 +143,7 @@
         <h2>{{ .title | markdownify }}</h2>
         <p>{{ .content | markdownify }}</p>
         {{ with .button }}
-          <a href="{{ .link | absURL }}" class="btn btn-main mt-3">{{ .label | markdownify }}</a>
+          <a href="{{ .link | safeURL }}" class="btn btn-main mt-3">{{ .label | markdownify }}</a>
         {{ end }}
       </div>
     </div>

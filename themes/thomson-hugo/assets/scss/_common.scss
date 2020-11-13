@@ -24,12 +24,12 @@
 }
 
 .btn-main{
-	background: $primary-color;
+	background: $secondary-color;
 	color: $extra-color;
 
 	&:hover{
+		background: $primary-color;
 		color: $extra-color!important;
-		background: $shadow-color;
 	}
 }
 
@@ -44,13 +44,13 @@
 }
 
 .btn-white{
-	background: $white;
-	color: $black;
-	border-color: $white;
+	background: $extra-color;
+	color: $primary-color;
+	border-color: $extra-color;
 
 	&:hover{
 		background: transparent;
-		color: $white;
+		color: $extra-color;
 	}
 }
 
