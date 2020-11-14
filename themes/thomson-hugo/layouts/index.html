@@ -81,6 +81,34 @@
 {{ end }}
 {{ end }}
 
+{{ if .Site.Data.homepage.procedure.enable }}
+{{ with .Site.Data.homepage.procedure }}
+<section class="section procedure">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col text-center">
+        <h2>{{ .title }}</h2>
+        <p>{{ .content }}</p>
+      </div>
+    </div>
+    <div class="row">
+      {{ range .procedure_item }}
+      <div class="col-md-6 col-lg-3">
+        <div class="card-procedure bg-secondary">
+          <img class="card-img" src="{{ .image | relURL }}" alt="{{ .name | markdownify }}">
+          <div class="card-body">
+            <h3 class="card-title">{{ .name }}</h3>
+            <p class="card-caption">{{ .caption }}</p>
+          </div>
+        </div>  
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
 <!-- Portfolio Start -->
 {{ if .Site.Data.homepage.portfolio.enable }}
 <section class="section portfolio">

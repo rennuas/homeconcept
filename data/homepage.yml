@@ -74,3 +74,23 @@ contact:
   button  : 
     label : "Konsultasi"
     link  : "contact"
+
+
+###################### Procedure ########################
+procedure:
+  enable: true
+  title: "Proses Mudah dan Cepat"
+  content: "Wujudkan keinginanmu hanya dengan beberapa langkah"
+  procedure_item:
+    - image: "images/procedure/1.png"
+      name: "Konsultasi"
+      caption: "Bicara mengenai rencanamu"
+    - image: "images/procedure/2.png"
+      name: "Budgeting"
+      caption: "Menentukan biaya yang sesuai"
+    - image: "images/procedure/3.png"
+      name: "Desain"
+      caption: "Desain sesuai rencanamu"
+    - image: "images/procedure/4.png"
+      name: "Eksekusi"
+      caption: "Implementasi dan selesai"

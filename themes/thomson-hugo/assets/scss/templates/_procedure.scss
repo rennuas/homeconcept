@@ -1,0 +1,21 @@
+.card-procedure{
+    padding: 45px 20px 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 30px;
+
+    .card-img {
+        width: 120px;
+    }
+
+    .card-body {
+        .card-title { 
+            color: $extra-color;
+        }
+    
+        .card-caption {
+            color: $extra-color;
+        }
+    }
+    
+}
