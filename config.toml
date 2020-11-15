@@ -76,7 +76,7 @@ google_analitycs_id = ""
 # contact form action 
 contact_form_action = "#" # contact form works with : https://formspree.io
 # copyright
-copyright = "Copyrighht &copy; 2020 by [Home Concept](/)"
+copyright = "Copyright &copy; 2020 by [Home Concept](/)"
 
 # preloader
 [params.preloader]
