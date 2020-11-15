@@ -1,8 +1,9 @@
 .card-procedure{
-    padding: 45px 20px 20px;
+    padding: 45px 5px 20px 5px;
     text-align: center;
     border-radius: 8px;
     margin-bottom: 30px;
+    height: 330px;
 
     .card-img {
         width: 120px;
@@ -14,7 +15,7 @@
         }
     
         .card-caption {
-            color: $extra-color;
+            color: $primary-color;
         }
     }
     

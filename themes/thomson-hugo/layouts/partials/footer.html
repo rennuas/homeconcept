@@ -20,7 +20,7 @@
 </section>
 <!-- Footer End -->
 
-<a href="https://api.whatsapp.com/send?phone={{ index .Site.Params.mobile 0}}&text=Hallo, Saya ingin konsultasi" class="btn btn-wa-cta"><i class="fab fa-whatsapp"></i></a>
+<a href="https://api.whatsapp.com/send?phone={{ index .Site.Params.mobile 0}}&text={{ .Site.Params.wa_text }}" class="btn btn-wa-cta"><i class="fab fa-whatsapp"></i></a>
 
 {{ "<!-- JS Plugins -->" | safeHTML }}
 {{ range .Site.Params.plugins.js}}

@@ -27,7 +27,7 @@
 <!-- Service start -->
 {{ if .Site.Data.homepage.service.enable }}
 {{ with .Site.Data.homepage.service }}
-<section class="section service-home">
+<section class="section-sm service-home">
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
@@ -56,7 +56,7 @@
 <!-- Benefit Start -->
 {{if .Site.Data.homepage.benefit.enable }}
 {{ with .Site.Data.homepage.benefit }}
-<section class="section benefit-home bg-secondary">
+<section class="section-sm benefit-home bg-secondary">
   <div class="container">
     <div class="row">
       <div class="col mb-5">
@@ -83,7 +83,7 @@
 
 {{ if .Site.Data.homepage.procedure.enable }}
 {{ with .Site.Data.homepage.procedure }}
-<section class="section procedure">
+<section class="section-sm procedure">
   <div class="container">
     <div class="row mb-5">
       <div class="col text-center">
@@ -111,7 +111,7 @@
 
 <!-- Portfolio Start -->
 {{ if .Site.Data.homepage.portfolio.enable }}
-<section class="section portfolio">
+<section class="section-sm portfolio">
   <div class="container">
     <div class="row mb-5">
       <div class="col-10">
@@ -163,11 +163,11 @@
 <!-- Contact Start -->
 {{ if .Site.Data.homepage.contact.enable }}
 {{ with .Site.Data.homepage.contact }}
-<section class="section-sm contact">
+<section class="section-sm pt-0 contact-cta rounded">
   <div class="container">
     <hr>
-    <div class="row">
-      <div class="col py-5 text-center">
+    <div class="row ">
+      <div class="col p-5 cta-item text-center">
         <h2>{{ .title | markdownify }}</h2>
         <p>{{ .content | markdownify }}</p>
         {{ with .button }}

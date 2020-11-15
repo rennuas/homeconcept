@@ -65,6 +65,7 @@ home = "Home"
 logo = "images/home100x100.png"
 # contact info
 mobile = ["+62 878 8866 1252", "+62 878-0006-3636"]
+wa_text = "Halo, saya ingin konsultasi"
 email = "contact@homeconcept.design"
 address = "Brokoli House Jl. Palmerah Utara I No.20 Palmerah Jakarta Barat  11480 Indonesia"
 # meta description

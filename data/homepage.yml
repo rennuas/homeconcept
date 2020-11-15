@@ -80,17 +80,17 @@ contact:
 procedure:
   enable: true
   title: "Proses Mudah dan Cepat"
-  content: "Wujudkan keinginanmu hanya dengan beberapa langkah"
+  content: "Hanya dengan beberapa langkah untuk wujudkan keinginanmu"
   procedure_item:
     - image: "images/procedure/1.png"
       name: "Konsultasi"
-      caption: "Bicara mengenai rencanamu"
+      caption: "Bicara mengenai keinginanmu"
     - image: "images/procedure/2.png"
       name: "Budgeting"
       caption: "Menentukan biaya yang sesuai"
     - image: "images/procedure/3.png"
       name: "Desain"
-      caption: "Desain sesuai rencanamu"
+      caption: "Merancang yang telah dibicarakan"
     - image: "images/procedure/4.png"
       name: "Eksekusi"
       caption: "Implementasi dan selesai"
